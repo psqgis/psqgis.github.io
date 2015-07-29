@@ -2,7 +2,37 @@
 layout: default
 title: Puget Sound QGIS User Group
 ---
+
 <div class="blurb">
 	<h1>Puget Sound QGIS User Group</h1>
-	<p>I'm best known as the horrible cop from <em>A Touch of Evil</em> Don't trust me. <a href="/about">Read more about my life...</a></p>
+
+    <div class="highlight">
+        <center>
+        <h2> Scheduled Events:</h2>
+        {% for post in site.posts %}
+            {% if post.schedule >= site.time %}
+                <a href="{{ post.url }}"title="{{ post.title }}">{{ post.title }}</a>
+            {% endif %}
+          {% endfor %}
+          <br />&nbsp;
+        </center>
+    </div>
+
+
+	<p>This is a group for folks interested in <a href="http://www.qgis.org/en/site/">QGIS</a>, the free, open-source Geographic
+	   Information System software. We are located in the Puget Sound Region of Washington
+	   State.
+	</p>
+	<p>All skill levels are welcome! We will periodically meet to share topics of
+	   interest. Bring your questions, or share examples with the rest of the group. The
+	   idea is to learn more about this very capable mapping and analysis package.
+	</p>
+	<p>Check out our <a href="/blog">blog</a> for QGIS tips and information about our meetings.
+	</p>
+	<p>You can join us by signing up for the
+	    <a href="http://www.meetup.com/Puget-Sound-QGIS-Users-Group/">meetup group</a> at
+	    meetup.org.
+	</p>
 </div><!-- /.blurb -->
+
+
