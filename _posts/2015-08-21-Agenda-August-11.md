@@ -21,3 +21,5 @@ I look forward to seeing all of you.  This meeting will be held on August 11, fr
 >19601 21st Ave. NW
 >Shoreline, WA 98177
 >Regards, Stu Smith
+
+Regards, Stu Smith
