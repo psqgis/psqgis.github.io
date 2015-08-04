@@ -9,11 +9,11 @@ Here's a quick agenda for our upcoming Tuesday August 11 meeting:
 
 1.  As always, everyone is welcome to bring their own QGIS experiences, questions and thoughts!
 2.  John Murphy has kindly offered to demonstrate how he taught non-GIS people to use QGIS for building shapefiles.  These tasks included:
--- Download King County parcel shapefiles
--- Capture a small city's zoning map (typically pdf) online
--- Geo-reference the map
--- Create a new shapefile for the city's zoning boundaries using the parcel shapefile as a reference layer.
--- Modify feature attributes in the new shapefile
+  - Download King County parcel shapefiles
+  - Capture a small city's zoning map (typically pdf) online
+  - Geo-reference the map
+  - Create a new shapefile for the city's zoning boundaries using the parcel shapefile as a reference layer.
+  - Modify feature attributes in the new shapefile
 3.  Jesse Ruth will be sharing some of the experiences he has had working as an analytics developer faced with using geospatial data and how he came to recognize and use QGIS to solve some of his problems.
 4.  Finally, I'll demonstrate some enhancements for joining tables that are now available with the latest QGIS release (2.10.1).
 
