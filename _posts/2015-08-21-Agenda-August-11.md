@@ -1,3 +1,9 @@
+---
+layout: post
+title: "Agenda for Meetup August 11th, 2015"
+date: 2015-07-28
+---
+
 Hello All,
 Here's a quick agenda for our upcoming Tuesday August 11 meeting:
 1.  As always, everyone is welcome to bring their own QGIS experiences, questions and thoughts!
