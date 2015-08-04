@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Agenda for Meetup August 11th, 2015"
-date: 2015-07-28
+date: 2015-08-04
 ---
 
 Hello All,
