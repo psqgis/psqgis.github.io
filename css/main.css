@@ -1,4 +1,8 @@
 body {
+    background-image: url(/images/pugetsound-uscs-1859.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center;
     margin: 60px auto;
     width: 70%;
 }
@@ -7,7 +11,14 @@ nav ul, footer ul, .highlight {
     padding: 0px;
     list-style: none;
     font-weight: bold;
+    font-size: 1.2em;
 }
+
+ol, ul { 
+    color: #333;
+    font-size: 1.2rem;
+}
+
 nav ul li, footer ul li {
     display: inline;
     margin-right: 20px;
@@ -20,26 +31,16 @@ a:hover {
     text-decoration: underline;
 }
 h1 {
-    font-size: 3em;
+    font-size: 2.5em;
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
 }
 p {
-    font-size: 1.5em;
-    line-height: 1.4em;
+    font-size: 1.2em;
     color: #333;
 }
 footer {
     border-top: 1px solid #d5d5d5;
-    font-size: .8em;
-}
-
-ul.posts { 
-    margin: 20px auto 40px; 
-    font-size: 1.5em;
-}
-
-ul.posts li {
-    list-style: none;
+    font-size: 0.7em;
 }
 
 .highlight {
