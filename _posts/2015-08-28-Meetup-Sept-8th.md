@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Scheduled Meetup September 8th, 2015"
+title: "Meetup September 8th, 2015"
 date: 2015-08-28
 schedule: 2015-09-08T18:00:00.0-7
 ---
