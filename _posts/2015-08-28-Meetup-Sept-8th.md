@@ -8,10 +8,8 @@ schedule: 2015-09-08T18:00:00.0-7
 __Update - Agenda:__
 
 * Clifford Snow will talk with us about using the Postgis database with QGIS.
-* I'll show an example of using the QGIS Time Manager to create trajectory animations, following the [work of Anita Graser] (http://anitagraser.com/2015/05/08/trajectory-animations-with-fadeout-effect/) (one of the more well-known QGIS experts).  See her efforts at 
+* Stu Smith will show an example of using the QGIS Time Manager to create trajectory animations, following the [work of Anita Graser] (http://anitagraser.com/2015/05/08/trajectory-animations-with-fadeout-effect/) (one of the more well-known QGIS experts).  See her efforts at 
 * Stu has wanted to cover QGIS table joins, but he hasn't had time during our previous meetings.
-
-
 
 Hello All,
 
