@@ -5,9 +5,6 @@ date: 2015-11-01
 schedule: 2015-11-10T18:30:00.0-8
 ---
 
-Library meeting room
-
-
 Hello Fellow PSQGIS members.
 
 I'm happy to announce our [upcoming monthly meeting](http://www.meetup.com/Puget-Sound-QGIS-Users-Group/events/226389306/), Tuesday, November 10th, from 6:30 - 8:30 pm.  This time, we're going to move the venue to the South Sound area, at the Lakewood public library, [6300 Wildaire Rd SW, Lakewood, WA](https://www.openstreetmap.org/way/377915619#map=19/47.16035/-122.52144) in the Library meeting room.  Hopefully this location will give people who have had a difficult time traveling north to Seattle for our previous meetings the chance to join in.  
