@@ -27,7 +27,7 @@ Paul McCombs gave a presentation: [Exploring Relations in QGIS](http://www.lazym
 * Paul still had some questions unanswered that we were able to figure out in the meeting. The presentation slides have been updated to include that information.
 * John Murphy was interested in finding out more about using the expression window that is available in the Relation widget on the Attribute form, and may give us an update at a future meetup.
 
-John showed us how to use the Print Composer to produce a paper or digital output map. He used a handbook written by PSQGIS member Bob Catherman as a resource for his demonstration. That [handbook](/downloads/HealthCare-GIS-Handbook-E-3-6.doc) is available on the PSQGIS [Resource](/resources.html) page.
+John showed us how to use the Print Composer to produce a paper or digital output map. He used a handbook written by PSQGIS member Bob Catherman as a resource for his demonstration. Bob is interested in feedback on his [handbook](/downloads/HealthCare-GIS-Handbook-E-3-6.doc) which is available on the PSQGIS [Resource](/resources.html) page.
 
 * From the Project menu, select New Print Composer.
 * First thing to do:
