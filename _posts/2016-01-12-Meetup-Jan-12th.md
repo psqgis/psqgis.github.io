@@ -5,7 +5,8 @@ date: 2015-11-12
 schedule: 2016-01-12T19:30:00.0-8
 ---
 
-[Our regular monthly meeting](http://www.meetup.com/Puget-Sound-QGIS-Users-Group/events/227847128/)
+[Our Regular Monthly Meeting](http://www.meetup.com/Puget-Sound-QGIS-Users-Group/events/227847128/)
+-----------------------------
 
 
 Third Place Commons meeting room
