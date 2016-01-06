@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Meetup January 12th, 2016"
-date: 2015-11-01
+date: 2015-11-12
 schedule: 2016-01-12T19:30:00.0-8
 ---
 
