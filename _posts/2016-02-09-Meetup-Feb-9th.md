@@ -8,7 +8,6 @@ schedule: 2016-02-9T18:30:00.0-8
 [Our Regular Monthly Meeting](http://www.meetup.com/Puget-Sound-QGIS-Users-Group/events/228600890/)
 -----------------------------
 
-
 Bellevue Regional Library Room 1
 
 [1111 110th AVE NE, Bellevue, WA](http://www.openstreetmap.org/#map=17/47.62005/-122.19424)
