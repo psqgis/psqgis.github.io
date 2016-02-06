@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-	<atom:link href="hhttp://psqgis.org/blog/atom.xml" rel="self" type="application/rss+xml" />
+
 	<title>Puget Sound QGIS User Group</title>
 	<link href="http://psqgis.org/blog"/>
+	<link href="hhttp://psqgis.org/blog/atom.xml" rel="self"/>
 	<updated>{{ site.time | date_to_xmlschema }}</updated>
 	<id>http://psqgis.org/blog</id>
 	<author>
