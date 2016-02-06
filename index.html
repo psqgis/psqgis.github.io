@@ -11,7 +11,7 @@ title: Puget Sound QGIS User Group
         <h2> Scheduled Events:</h2>
         {% for post in site.posts %}
             {% if post.schedule >= site.time %}
-                <a href="{{ post.url }}"title="{{ post.title }}">{{ post.title }}</a>
+                <a href="{{ post.url }}"title="{{ post.title }}">{{ post.title }}</a><br />
             {% endif %}
           {% endfor %}
           <br />&nbsp;
