@@ -1,10 +1,10 @@
 ---
 layout: post
-title: "Reference Materials & Learning Software"
+title: "Reference Materials and Learning Software"
 date: 2015-07-28
 ---
 
-## Reference Materials & Learning Software
+## Reference Materials and Learning Software
 
 Reference:
 
