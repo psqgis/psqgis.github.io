@@ -2,7 +2,7 @@
 layout: post
 title: "Meetup February 9th, 2016"
 date: 2016-02-05
-schedule: 2016-02-9T18:30:00.0-8
+schedule: 2016-02-09T18:30:00.0-8
 ---
 
 [Our Regular Monthly Meeting](http://www.meetup.com/Puget-Sound-QGIS-Users-Group/events/228600890/)
