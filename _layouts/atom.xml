@@ -4,7 +4,7 @@
 	<title>Puget Sound QGIS User Group</title>
 	<link href="http://psqgis.org/blog"/>
 	<updated>{{ site.time | date_to_xmlschema }}</updated>
-	<id>http://psqgis.com/blog</id>
+	<id>http://psqgis.org/blog</id>
 	<author>
 		<name>Paul McCombs</name>
 	</author>
