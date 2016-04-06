@@ -8,8 +8,7 @@ schedule: 2016-04-12T18:00:00.0-8
 [Our Regular Monthly Meeting](http://www.meetup.com/Puget-Sound-QGIS-Users-Group/events/230151764/)
 -----------------------------
 
-Tuesday April 12th, 6 - 8pm
-===========================
+### Tuesday April 12th, 6 - 8pm
 
 King Street Center
 [201 South Jackson Street](http://www.openstreetmap.org/#map=19/47.59885/-122.33041)
