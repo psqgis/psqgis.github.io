@@ -1,11 +1,11 @@
 ###psqgis.github.io
-puget sound qgis user group landing page
+Puget Sound QGIS User Group landing page
 All of our meeting updates and blog posts are curated through these files. Check out the wiki for details on how the website works and how to edit or add content.
 
 ###Site Development
-The site is built on Jekyll and Github Pages, while the template files, JavaScript, and CSS are all hand-rolled by the members of CUGOS.
+The site is built on Jekyll and Github Pages, while the template files, JavaScript, and CSS are all hand-rolled by the members of PSQGIS.
 
-If you're interested in helping out with the development of the site, please feel free to fork and edit locally before creating a pull-request. The following steps assume you have Jekyll 2.0 installed (including jekyll-sitemap, perhaps by: gem install jekyll-sitemap) and running properly on your machine. Note: If you'd like edit access to this repository to skip the forking and pulling process, send an email to *hello@cugos.org** and we'll get you set up!*
+If you're interested in helping out with the development of the site, please feel free to fork and edit locally before creating a pull-request. The following steps assume you have Jekyll 2.0 installed (including jekyll-sitemap, perhaps by: gem install jekyll-sitemap) and running properly on your machine.
 
 ###Fork this repository into your own working repo
 Clone your newly created repository into your local machine
@@ -16,8 +16,8 @@ Create a pull request to merge your changes into the cugos master repository!
 Have a beer!
 Command line steps after forking the repository:
 ```
-git clone https://github.com/YOUR-USERNAME/cugos.github.com.git
-cd cugos.github.com
+git clone https://github.com/YOUR-USERNAME/psqgis.github.io.git
+cd psqgis.github.io
 jekyll serve --watch
 ...make changes...
 
