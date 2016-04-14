@@ -1,5 +1,5 @@
 ###psqgis.github.io
-Puget Sound QGIS User Group landing page
+#Puget Sound QGIS User Group landing page
 All of our meeting updates and blog posts are curated through these files. Check out the wiki for details on how the website works and how to edit or add content.
 
 ###Site Development
