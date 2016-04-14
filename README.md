@@ -27,5 +27,3 @@ git push origin master
 ```
 Create a pull request between your repository and this repository.
 
-###Attribution
-
