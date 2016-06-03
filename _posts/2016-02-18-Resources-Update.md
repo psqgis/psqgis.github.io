@@ -8,6 +8,6 @@ Bob Catherman's QGIS handbook &quot;Monitoring Health Care Outcomes Using GIS&qu
 
 Bob Catherman's presentation on Processing Raster images, Paul McCombs presentation on QGIS Relations, and Peter Keum's list of reference materials have been added.
 
-Please check out the latest version of our <a href="/resources.html">Resources<a> page.
+Please check out the latest version of our [Resources](/resources.html) page.
 
 Paul McCombs
