@@ -16,4 +16,5 @@ Reference:
 Classes:
 
 * [http://fossgeo.org/2015/04/10/announcing-the-new-geo-academy/](http://fossgeo.org/2015/04/10/announcing-the-new-geo-academy/) - Fantastic video class, self pacing, create account through Canvas Learning (FREE). Very comprehensive and good place to start for those introducing to geospatial field.
+* [GIS for Health Researchers](http://us8.campaign-archive2.com/?u=e682402ff461b79bf8c2d128e&id=b7cdc621c9) - UW free online course covers health research methods with QGIS. -- Added March 2017
  
