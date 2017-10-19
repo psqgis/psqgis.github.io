@@ -10,9 +10,9 @@ permalink: /archive/
        {% assign currentDate = post.date | date: "%Y" %}
        {% if currentDate != myDate %}
            {% unless forloop.first %}</ul></div>{% endunless %}
-           <div class='tab' onclick="myToggle(y{{currentDate}})"> <h2>{{currentDate}}</h2><div>
-           <div class="y{{currentDate}}">
-           <h1>{{ currentDate }}</h1>
+           <p class='flip' onclick="myShow('y{{currentDate}}')"> {{currentDate}}</p>
+           <div id="y{{currentDate}}">
+           <h1 onclick="myHide('y{{currentDate}}')">{{ currentDate }}</h1>
            <ul>
            {% assign myDate = currentDate %}
        {% endif %}
@@ -23,7 +23,10 @@ permalink: /archive/
 </section>
 
 <script>
-	function myToggle(myYear){
-		document.getElementbyClass("y2017").style.display = block;
+	function myShow(myID) {
+		document.getElementById(myID).style.display = "block";
+	}
+	function myHide(myID) {
+		document.getElementById(myID).style.display = "none";
 	}
 </script>

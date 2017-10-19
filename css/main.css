@@ -53,16 +53,19 @@ footer {
     position: fixed
 }
 
-.y2017 {
+#y2017 {
     border: 1px solid Blue;
-    display: block;
+    display: none;
+    bottom: 0;
+    left: 0;
+    position: fixed;
 }
 
-.y2016 {
+#y2016 {
     border: 1px solid Green;
-    display:none;
+    display: none;
 }
-.y2015 {
+#y2015 {
     border: 1px solid Yellow;
-    display:none;
+    display: none;
 }
