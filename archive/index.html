@@ -6,15 +6,23 @@ permalink: /archive/
 
 <section class="archive-post-list">
 
+  <div class="tab">
    {% for post in site.posts %}
        {% assign currentDate = post.date | date: "%Y" %}
        {% if currentDate != myDate %}
-           {% unless forloop.first %}</ul></div>{% endunless %}
-           <p class='flip' onclick="myShow('y{{currentDate}}')"> {{currentDate}}</p>
-           <div id="y{{currentDate}}">
-           <h1 onclick="myHide('y{{currentDate}}')">{{ currentDate }}</h1>
-           <ul>
-           {% assign myDate = currentDate %}
+        <button class="tablinks" onclick="myShow(event, 'y{{currentDate}}')">{{currentDate}}</button>
+          {% assign myDate = currentDate %}
+       {% endif %}
+   {% endfor %}
+  </div>
+
+   {% for post in site.posts %}
+       {% assign currentDate = post.date | date: "%Y" %}
+       {% if currentDate != myDate %}
+          {% unless forloop.first %}</ul></div>{% endunless %}
+          <div id="y{{currentDate}}" class="tabcontent">
+          <ul>
+          {% assign myDate = currentDate %}
        {% endif %}
        <li><a href="{{ post.url }}"><span>{{ post.date | date: "%B %-d, %Y" }}</span> - {{ post.title }}</a></li>
        {% if forloop.last %}</ul>{% endif %}
@@ -23,10 +31,24 @@ permalink: /archive/
 </section>
 
 <script>
-	function myShow(myID) {
-		document.getElementById(myID).style.display = "block";
-	}
-	function myHide(myID) {
-		document.getElementById(myID).style.display = "none";
-	}
+	function myShow(evt, year) {
+    // Declare all variables
+    var i, tabcontent, tablinks;
+
+    // Get all elements with class="tabcontent" and hide them
+    tabcontent = document.getElementsByClassName("tabcontent");
+    for (i = 0; i < tabcontent.length; i++) {
+        tabcontent[i].style.display = "none";
+    }
+
+    // Get all elements with class="tablinks" and remove the class "active"
+    tablinks = document.getElementsByClassName("tablinks");
+    for (i = 0; i < tablinks.length; i++) {
+        tablinks[i].className = tablinks[i].className.replace(" active", "");
+    }
+
+    // Show the current tab, and add an "active" class to the button that opened the tab
+    document.getElementById(year).style.display = "block";
+    evt.currentTarget.className += " active";
+}
 </script>

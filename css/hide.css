@@ -17,11 +17,12 @@
 div.tab {
     overflow: hidden;
     border: 1px solid #ccc;
-    background-color: #f1f1f1;
+    background-color: #9bbc91;
 }
 
 /* Style the buttons inside the tab */
 div.tab button {
+    font-size: 2rem;
     background-color: inherit;
     float: left;
     border: none;
