@@ -49,20 +49,7 @@ footer {
     border: 4px solid Black;
 }
 
-.tab {
-    position: fixed
-}
-
-.y2017 {
-    border: 1px solid Blue;
-    display: block;
-}
-
-.y2016 {
-    border: 1px solid Green;
-    display:none;
-}
-.y2015 {
-    border: 1px solid Yellow;
-    display:none;
+div[id^="y20"]{
+    background-color: WhiteSmoke;
+    display: none;
 }
