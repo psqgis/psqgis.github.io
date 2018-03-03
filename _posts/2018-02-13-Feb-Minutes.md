@@ -6,18 +6,19 @@ date: 2018-03-03
 
 The February meeting was held at [Interim CDA](http://interimicda.org/whatwedo/). Thanks again for their generous use of their conference room.
 
-* Paul showed how the Census Bureau is using QGIS for census data update in prep for 2020 census
-	* https://www.census.gov/programs-surveys/bas/technical-documentation/gups-instructions.html
-	* http://www.sandag.org/resources/demographics_and_other_data/demographics/census/LUCATrainingWorkshop2017/GUPS_Demo.mp4
+* Paul showed how the Census Bureau is using customized versions of QGIS known as [GUPS](https://www.census.gov/programs-surveys/bas/technical-documentation/gups-instructions.html)  for boundary and address data update by local governments in preparation for the 2020 US Census.
+	* [Video](http://www.sandag.org/resources/demographics_and_other_data/demographics/census/LUCATrainingWorkshop2017/GUPS_Demo.mp4) hosed by the [San Diego Association of Governments](http://www.sandag.org/index.asp?fuseaction=about.home).
 
-* Peter/Evan explored Templates for map composer
-	* Peter's computer has version 2.18.14 installed
-	* From inside the composer window can save as template
-	* Positioning of the composer objects gets saved in a template file.
-	* There is a composer folder that is used by default
-		* .qgis2/composer_templates
-	* Within a given project you can't use a template to save a given position.
-	* Bookmarks in the main QGIS window are saved global to your computer not with specific qgis documents
+* Peter and Evan explored Templates for Map Composer.
+	* The computer used for demonstration was running QGIS v2.18.14.
+	* From a setup map composition in the Composer window, save as template.
+	* Positioning of the various objects in Composer is saved in the template.
+	* There is a Composer folder that is used by default: _.qgis2/composer_templates_
+	* Within one project you can't use a template to save a given map extent/scale.
+		* Alternatively, Bookmarks are available in the main QGIS window. They are saved globaly to your computer, available from all qgis documents.
+		
+# Continue Editing from Here 
+
 * Evan discussed that Version 3.0 will be released in 10 day
 	* Still a lot of plugins that are missing. Like most of them.
 	* Selective Masking. No one has figured out how to get to it yet.
