@@ -53,3 +53,7 @@ div[id^="y20"]{
     background-color: WhiteSmoke;
     display: none;
 }
+
+.credit {
+    font-size: 0.7em;
+}

@@ -2,43 +2,18 @@
 layout: default
 title: QGIS Resources
 ---
-<div class="blurb">
-	<h1>{{ page.title }}</h1>
 
-    <h2><a href="downloads/How_to_create_and_edit_FGDB_in _QGIS.doc">How to Create and Edit File Geodatabases in QGIS</a></h2>
-    <p> Notes and examples of how to read and write to Esri File Geodatabases in QGIS. Written by PSQGIS member Stu Smith.
-    </p>
+<h1>{{ page.title }}</h1>
 
-    <h2>QGIS Conference 2016 - added by Peter Keum</h2>
-    <ul>
-        <li><a href='http://diobma.udg.edu/handle/10256.1/4268/browse'>Videos</a></li>
-        <li><a href='http://www.sigte.udg.edu/jornadassiglibre/en/international-qgis-user-and-developer-conference/workshops-qgis/'>Workshop Materials</a></li>
-    </ul> 
+{% for res in site.qgis_resources %}
+<div class="resource_content">
+<h2>{{ res.title }}</h2>
+<p class="credit">Contributed by {{ res.contributor }}</p>
+<a href="/downloads/{{ res.download }}">{{ res.download }}</a>
+{% if res.download %}
 
-    <h2><a href="https://docs.google.com/document/d/1U9B0Mp_O5Q7uUaUL9qsKGG5ScMAY0tlmg0GZ80ZeBsw/edit?usp=drive_web">QGIS Time Manager</a></h2>
-    <p>
-        A Google doc with some resources about using QGIS Time Manager. Written by PSQGIS member Joel Masselink. 
-    </p>
+{% endif %}
 
-    <h2><a href="downloads/HealthCare-GIS-Handbook-E-3-8 Final compressed.doc">Monitoring Health Care Outcomes Using GIS</a></h2>
-    <p>
-        A handbook with detailed examples using QGIS for developing and operating a health care monitoring and evaluation system.<br />
-        Edition E.3.8 published by <a href="http://www.medrix.org">Medrix</a>, provided by PSQGIS member Bob Catherman.
-    </p>
-
-    <h2><a href="downloads/QGIS_Raster_Processing.pptx">Using QGIS to Process Raster Images</a></h2>
-    <p>
-    	A presentation demonstrating the process of using LandSAT data in QGIS to perform forest cover change detection utilizing the Normalized Difference Vegetation Index (NDVI). Provided by PSQGIS member Bob Catherman. 
-    </p>
-
-    <h2><a href="http://www.lazym8.com/datawrangler/qgis_relations">Exploring Relations in QGIS</a></h2>
-    <p>
-    	A presentation exploring the use of Relations in QGIS to associate tabular data with one to many relationships. Provided by PSQGIS member Paul McCombs. 
-    </p>
-
-    <h2><a href="http://psqgis.org/blog/2016/02/06/Reference-Materials">Reference Materials and Online Learning</a></h2>
-    <p>
-    	A list of QGIS references and one online class. Provided by PSQGIS member Peter Keum. 
-    </p>
-
-</div><!-- /.blurb -->
+{{ res.content }}
+</div>
+{% endfor %}

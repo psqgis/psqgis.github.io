@@ -2,3 +2,5 @@ name: Puget Sound QGIS User Group
 markdown: kramdown
 permalink: /blog/:year/:month/:day/:title
 future: true
+collections:
+    qgis_resources:
