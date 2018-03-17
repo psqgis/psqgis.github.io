@@ -5,10 +5,12 @@ title: QGIS Resources
 
 <h1>{{ page.title }}</h1>
 
-{% for res in site.qgis_resources %}
-<div class="resource_content">
+{% assign items = site.qgis_resources | sort: 'title' %}
+{% for res in items %}
 <h2>{{ res.title }}</h2>
-<p class="credit">Contributed by {{ res.contributor }}</p>
+<p class="credit">{{ res.contributor }}</p>
+
+<div class="resource_content">
 <a href="/downloads/{{ res.download }}">{{ res.download }}</a>
 {% if res.download %}
 
