@@ -7,15 +7,22 @@ title: QGIS Resources
 
 {% assign items = site.qgis_resources | sort: 'title' %}
 {% for res in items %}
-<h2>{{ res.title }}</h2>
-<p class="credit">{{ res.contributor }}</p>
+<h2 id="{{res.title}}" class="res_title">{{ res.title }}</h2>
+<div class="credit">
+  {{ res.contributor }}
+<!--  <ul class="tags">
+{% assign sortedtags = res.tags | sort %}
+{% for tag in sortedtags %}
+  <li><a href="/tags#{{ tag }}" class="tag">{{ tag }}</a></li>
+{% endfor %}
+</ul> -->
+</div>
 
 <div class="resource_content">
-<a href="/downloads/{{ res.download }}">{{ res.download }}</a>
 {% if res.download %}
-
+<p><a href="/downloads/{{ res.download }}">{{ res.download }}</a></p>
 {% endif %}
 
-{{ res.content }}
+{{res.content}}
 </div>
 {% endfor %}
