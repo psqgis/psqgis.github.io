@@ -1,0 +1,77 @@
+---
+layout: post
+title: "March '18 Meetup Minutes"
+date: 2018-03-19
+tags: king-county esri map-service qgis-3 shortcuts esri file-gdb osgeo4w basemaps qms browser-panel tile-server-xyz feature-service python-script
+---
+
+The March meeting was held at [Interim CDA](http://interimicda.org/whatwedo/). Thanks again for their generous use of their conference room.
+
+### QGIS 3.0 ###
+
+* There was a group exploration of getting QGIS 3.0 installed on MacOS
+    * Joel sent notice on our groups list that Kyng Chaos had it compiled the [MacOS version of QGIS 3.0](https://www.kyngchaos.com/software/qgis)
+        * The install requires:
+            * GDAL 2.2 - there's a [package](https://www.kyngchaos.com/software/frameworks) on his site.
+            * Python 3.6
+                * Peter installed [python 3.6.4 for MacOS](https://www.python.org/downloads/release/python-364/) from the python web site, which left the system version of python2.7 intact.
+                * Start Python 3.6.4 in terminal with python3.
+            * A bunch of Python modules that are listed in the readme file from the package.
+                * Peter tried skipping the package installs and got errors on launch about python module "OSGEO", but installing the modules listed in the readme resolved the issue.
+        * Clifford reported that he got it working earlier in the week.
+        * Taylor was trying to get it installed and having some difficulty.
+* Joel is having some problems with QGIS 3.0 not starting on windows every single time.
+* Peter distributed a [QGIS 3.0 shortcuts](https://north-road.com/qgis-3-0-shortcuts/) page created by North Road.
+* Taylor asked why someone would want to use QGIS 3.0.
+    * The group wisdom came up with the following reasons. Clearly we need more research.
+        * It is supposed to have better performance.
+        * There is new 3D functionality.
+            * But, Stu has had trouble getting that to work.
+        * More answers at GISGeography.com [_The Hidden Powers of QGIS_](https://gisgeography.com/qgis-3/)
+		
+### Installing QGIS on Windows with Esri GeoDB write capability ###
+
+* Stu demonstrated his recommended method to install OSGEO4W.
+    * Installs the defaults and then goes into custom install and enables:
+        * gdal-dev: OGR FileGDB Driver
+        * gdal-filegdb: OGR FileGDB Driver
+    * This requires that you agree to Esri's licensing terms.
+
+### Displaying Basemaps ###
+
+* Stu demonstrated multiple ways of displaying basemap data in QGIS 2.18.16.
+    * Stu provided a [document](/resources.html#Basemaps & Map Services) with details on his demonstration.
+    * There are some limitations with the OpenLayers plugin, and Stu does not recommended it.
+    * The QuickMapServices (QMS) plugin is superior.
+        * It offers the following advantages:
+            * Works in any projection.
+            * Works with on the fly reprojection.
+        * The QMS menu is under the _Web_ menu.
+        * You will want to customize the list as it has many Russian focused services by default.
+            * You can off the services you dont want in _Settings_.
+            * You can add more US-centric services with _Get contributed pack_.
+                 * Which doesn't appear to work with MacOS.
+        * Layer blending is available.
+        * Reportedly you can add custom basemaps.
+    * Native support in _Browser Panel: Tile Server {XYZ}_
+        * By default this is empty.
+        * Add  a basemap url and name to populate the menu.
+    * _Browser Panel: ArcGIS Feature Server_ can be used to add Esri format vector data web services.
+        * Some of the feature services Stu tested worked, and some did not.
+        * Stu's experience was that they downloaded very slowly.
+        * Can use _Save As_ to export to shape files.
+    * _Browser Panel: ArcGIS Map Server_ can be used to add non-tiled raster image web services.
+        * Check out [King County's services](http://gismaps.kingcounty.gov/arcgis/rest/services)
+* Joel found a [python script](/resources.html#Tile Server {XYZ} Basemap Import) that you can use to populate _Tile Server {XYZ}_ in QGIS 3.0 with a bunch of basemaps.
+    * An alternative solution to QMS, which is not available for QGIS 3.0.
+    * The script doesn not work with QGIS 2.18. The group tried it at some length.
+    * To use the script:
+        * Open the _Python Console_
+        * Open _Editor_
+        * Load the script
+		* Run the script
+
+
+---------
+
+If anyone has corrections or additions they would like to make to these notes please let Paul McCombs know, or submit a pull request on [github](https://github.com/psqgis/psqgis.github.io)
