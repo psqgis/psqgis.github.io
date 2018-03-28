@@ -1,8 +1,16 @@
 ---
 layout: post
-title: "October 2016 Meetup Minutes"
+title: "October '16 Meetup Minutes"
 date: 2016-11-12
+tags: esri plugin raster serval qfield data-entry osgeo4w learning
 ---
+
+Covered topics:
+* ArcMap - QGIS function cross reference.
+* Plugins: Serval, qfieldsync
+* Custom Data Entry Forms
+* Discover QGIS
+
 * Stu Smith has started a document that cross references features in Esri ArcMap with how that same function can be accomplished in QGIS. Stu will send his document to Paul McCombs who will create a Google doc and link it from the web site.
 * Stu has found a plugin [Serval](https://plugins.qgis.org/plugins/Serval/) that can be used to update values for individual raster grid cells or rectangles.
 * Stu also found an interesting [plugin](https://plugins.qgis.org/plugins/qfieldsync/) for [Qfield](http://planet.qgis.org/planet/tag/qfield/)

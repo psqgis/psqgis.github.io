@@ -1,13 +1,16 @@
 ---
 layout: default
-title: Puget Sound QGIS User Group Blog
+title: PSQGIS Minutes
 ---
+
+<h1>{{ page.title }}</h1>
+{% assign items = site.minutes | sort: 'date' | reverse %}
 
 <section class="archive-post-list">
 
   <div class="tab">
-   {% for post in site.posts %}
-       {% assign currentDate = post.date | date: "%Y" %}
+   {% for minute in items %}
+       {% assign currentDate = minute.date | date: "%Y" %}
        {% if currentDate != myDate %}
         <button class="tablinks" onclick="myShow(event, 'y{{currentDate}}')">{{currentDate}}</button>
           {% assign myDate = currentDate %}
@@ -15,19 +18,19 @@ title: Puget Sound QGIS User Group Blog
    {% endfor %}
   </div>
 
-   {% for post in site.posts %}
-       {% assign currentDate = post.date | date: "%Y" %}
-       {% if currentDate != myDate %}
-          {% unless forloop.first %}</ul></div>{% endunless %}
-          <div id="y{{currentDate}}" class="tabcontent">
-          <ul>
-          {% assign myDate = currentDate %}
-       {% endif %}
-	    <li>
-	    <a href="{{ post.url }}"><span>{{ post.date | date: "%B %-d, %Y" }}</span> - {{ post.title }}</a>
-	    </li>
-       {% if forloop.last %}</ul>{% endif %}
-   {% endfor %}
+
+{% for minute in items %}
+  {% assign currentDate = minute.date | date: "%Y" %}
+  {% if currentDate != myDate %}
+    {% unless forloop.first %}</ul></div>{% endunless %}
+    <div id="y{{currentDate}}" class="tabcontent">
+      <ul>
+      {% assign myDate = currentDate %}
+  {% endif %}
+  <h2 id="{{minute.title}}" class="res_title"><a href="{{ minute.url }}/">{{ minute.title }}</a></h2>
+  {{minute.excerpt}}
+  {% if forloop.last %}</ul></div>{% endif %}
+{% endfor %}
 
 </section>
 
