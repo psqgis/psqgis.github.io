@@ -27,7 +27,7 @@ title: PSQGIS Minutes
       <ul>
       {% assign myDate = currentDate %}
   {% endif %}
-  <h2 id="{{minute.title}}" class="res_title"><a href="{{ minute.url }}/">{{ minute.title }}</a></h2>
+  <h2 id="{{minute.title}}" class="res_title"><a href="{{ minute.url }}">{{ minute.title }}</a></h2>
   {{minute.excerpt}}
   {% if forloop.last %}</ul></div>{% endif %}
 {% endfor %}
