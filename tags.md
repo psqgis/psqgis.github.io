@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Resource Tag Index
+title: Browse PSQGIS.com by Subject
 ---
 
 # {{ page.title }} #
