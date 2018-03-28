@@ -1,12 +1,19 @@
 ---
 layout: post
-title: "January Meetup Minutes"
+title: "January '16 Meetup Minutes"
 date: 2016-01-24
+tags: psqgis-business esri file-gdb openstreetmap projections raster landsat ndvi vector editing learning
 ---
 
-The Puget Sound QGIS user's group met Tuesday January 12th at the Lake Forest Park Town Center.
+Covered Topics:
+* Esri File-Based Geodatabase
+* State of the Map
+* Washington State Plane Projection Definitions
+* Raster Image Classification and Analysis
+* Vector editing
 
-We had a crowded room including several members who had not previously been to a meeting.
+
+The Puget Sound QGIS user's group met Tuesday January 12th at the Lake Forest Park Town Center. We had a crowded room including several members who had not previously been to a meeting.
 
 Stu Smith covered some group business. We now have 66 members. Meetup.com will be asking members to pay $1.50 per month to continue with the group after introductory period.
 

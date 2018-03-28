@@ -1,13 +1,19 @@
 ---
 layout: post
-title: "November Meetup Minutes"
+title: "November '15 Meetup Minutes"
 date: 2015-11-12
+tags: psqgis-business maptime learning relates king-county print-composer handbook projections
 ---
 
-The Puget Sound QGIS user's group met Tuesday November 10th at the Lakewood Library.
+Covered Topics:
+* PSQGIS User's Group Business
+* GIS Stack Exchange
+* Relations in QGIS
+* Print Composer
+* EPSG Codes
+* Reprojecting Layers
 
-We had five members in attendance and opened the meeting with a discussion of business Topics.
-
+The Puget Sound QGIS user's group met Tuesday November 10th at the Lakewood Library. We had five members in attendance and opened the meeting with a discussion of business Topics.
 * We have 62 members but get 5 to 8 people at meetings.
 * Holding the meeting further south did not increase attendance like we hoped.
 * We discussed moving to a location with food and drink, perhaps attracting more people to the meetings.
@@ -22,13 +28,11 @@ We had five members in attendance and opened the meeting with a discussion of bu
 First time attendee Will Thomas asked for an orientation to QGIS. Stu filled him in with a brief history of GIS software and how QGIS came to be. Stu also mentioned that [GIS Stack Exchange](http://gis.stackexchange.com/) was a great place to ask questions and browse for interesting ideas on how to use QGIS.
 
 Paul McCombs gave a presentation: [Exploring Relations in QGIS](http://www.lazym8.com/datawrangler/qgis_relations).
-
 * Paul used data available from the King County Washington GIS data portal for the presentation.
 * Paul still had some questions unanswered that we were able to figure out in the meeting. The presentation slides have been updated to include that information.
 * John Murphy was interested in finding out more about using the expression window that is available in the Relation widget on the Attribute form, and may give us an update at a future meetup.
 
-John showed us how to use the Print Composer to produce a paper or digital output map. He used a handbook written by PSQGIS member Bob Catherman as a resource for his demonstration. Bob is interested in feedback on his [handbook](/downloads/HealthCare-GIS-Handbook-E-3-6.doc) which is available on the PSQGIS [Resource](/resources.html) page.
-
+John showed us how to use the Print Composer to produce a paper or digital output map. He used a handbook written by PSQGIS member Bob Catherman as a resource for his demonstration. Bob is interested in feedback on his [handbook](/downloads/HealthCare_GIS_Handbook_E.3.8.doc) which is available on the PSQGIS [Resource](/resources.html) page.
 * From the Project menu, select New Print Composer.
 * First thing to do:
 	* From the Layout menu, select Add Map
@@ -48,7 +52,6 @@ John showed us how to use the Print Composer to produce a paper or digital outpu
 * Export the map as an image, PDF, or SVG.
 
 Stu lead a discussion of EPSG codes that are used to specify map projections in QGIS.
-
 * EPSG stands for European Petroleum Standards Group.
 * Check out the projections documented on [SpatialReference.org](http://spatialreference.org/)
 	* Search for "Washington" to see the options in our area.
@@ -56,8 +59,7 @@ Stu lead a discussion of EPSG codes that are used to specify map projections in 
 * Pierce County uses NAD83(HARN)/Washington South (ftUS) - EPSG:2927
 * King County uses NAD83(HARN)/Washington South (ftUS) - EPSG:2927
 
-Clifford demonstrated how to convert a layer.
-
+Clifford demonstrated how to reproject a layer.
 * Bring the layer in to QGIS and specify the correct projection for it's initial state.
 * Select all the features of the layer.
 * Go to Layer Menu -> Save As…
@@ -68,7 +70,6 @@ Clifford demonstrated how to convert a layer.
 	* Click OK to reproject and save the layer.
 
 Agenda for the next meetup:
-
 * Clifford: How to get QGIS to recognize County stateplane projections, if he can figure it out.
 * Clifford: Open Street Map question and answer session. Stu has questions.
 * All: QGIS question and answer session.

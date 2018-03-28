@@ -1,8 +1,15 @@
 ---
 layout: post
-title: "February Meetup Minutes"
+title: "February '16 Meetup Minutes"
 date: 2016-02-21
+tags: openstreetmap paper-map map-series raster ndvi learning plugin scp web-map geopackage
 ---
+
+Covered Topics:
+* Openstreetmap Seattle
+* Printing a map series
+* Raster Image Classification and  Analysis
+* Publishing to Web Maps
 
 Clifford Snow shared what the OpenStreetMap Seattle is up to. Check out their [meetup.com page](http://www.meetup.com/OpenStreetMap-Seattle/).
 
