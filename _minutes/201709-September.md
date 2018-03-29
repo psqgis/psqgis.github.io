@@ -2,7 +2,15 @@
 layout: post
 title: "September '17 Meetup Minutes"
 date: 2017-09-16
+tags: foss4g qgis-3 learning waurisa cugos handbook health-care
 ---
+
+Covered Topics:
+* FOSS4G Boston 2017
+* QGIS 3.0 Release
+* QGIS Workshop Report
+* Monitoring Health Outcomes Using QGIS
+* Ideas for WAURISA conference 2018
 
 The September meeting was held at the Northgate Library.
 

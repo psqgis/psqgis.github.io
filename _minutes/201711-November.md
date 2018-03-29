@@ -2,7 +2,12 @@
 layout: post
 title: "November '17 Meetup Minutes"
 date: 2017-11-18
+tags: graphical-modeler weather-data building-data lidar raster gdal zonal-statistics
 ---
+
+Covered Topics:
+* Graphical Modeler
+* Building and Address Data for Bellingham WA
 
 The November meeting was held at [Interim CDA](http://interimicda.org/whatwedo/). Thanks again for their generous use of their conference room. We expect to be meeting there in the future.
 
@@ -49,6 +54,7 @@ The November meeting was held at [Interim CDA](http://interimicda.org/whatwedo/)
 			* For output  enter "_test_"
 				* This will be prepended to the input layer name for that output
 				* Select auto-fill the parameters to fill it down
+
 * Clifford: Building and Address import for Bellingham Washington
 	* Slide show is [available](https://docs.google.com/presentation/d/e/2PACX-1vSw5hv6Zy90KQJdZEvWeh5Mxk94Hb3GklKcAoaPVPWjCYCni1gDPgAxlgIt4bAPJNUMrpxNviIBMuYH/pub?start=false&loop=false&delayms=3000)
 	* Clifford wants to add building heights to building footprints that he has.
