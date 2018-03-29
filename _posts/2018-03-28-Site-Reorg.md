@@ -4,7 +4,7 @@ title: "Site Reorganization"
 date: 2018-03-28
 ---
 
-PSQGIS.com was reorganized in March 2018.The [meeting minutes](/minutes.html) were moved from our [blog](\blog) to their own page. This clears up the confusion of the minutes being listed in the blog by publication date instead of meeting date.
+PSQGIS.com was reorganized in March 2018. The [meeting minutes](/minutes.html) were moved from our [blog](\blog) to their own page. This clears up the confusion of the minutes being listed in the blog by publication date instead of meeting date.
 
 The [PSQGIS resources page](\resources.html) was redesigned to make updates quicker and easier.
 
