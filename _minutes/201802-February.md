@@ -2,23 +2,36 @@
 layout: post
 title: "February '18 Meetup Minutes"
 date: 2018-03-05
+tags: census print-composer templates qgis-3 time-manager animation draw-effects expression-builder time-series high-resolution plugin auto-save basemap tile-server-xyz geopackage default-fields
 ---
+
+Covered Topics:
+* US Census Bureau Using QGIS
+* Map Composer Templzates
+* QGIS 3.0 Release
+* Using Time Manager to Animate Commercial Shipping Data
+* Using High Rsolution Screens in Windows
+* Auto Saver
+* Basemaps
+* Default Fields with GeoPackage Data
 
 The February meeting was held at [Interim CDA](http://interimicda.org/whatwedo/). Thanks again for their generous use of their conference room.
 
 * Paul showed how the Census Bureau is using customized versions of QGIS known as [GUPS](https://www.census.gov/programs-surveys/bas/technical-documentation/gups-instructions.html)  for boundary and address data update by local governments in preparation for the 2020 US Census.
     * [Video](http://www.sandag.org/resources/demographics_and_other_data/demographics/census/LUCATrainingWorkshop2017/GUPS_Demo.mp4) hosed by the [San Diego Association of Governments](http://www.sandag.org/index.asp?fuseaction=about.home).
 
-* Peter and Evan explored templates for *Map Composer*.
+* Peter and Evan explored templates for *Print Composer*.
     * The computer used for demonstration was running QGIS v2.18.14.
-    * From a configured map composition in the *Map Composer* window, save as template.
-    * Positioning of the various objects in *Map Composer* is saved in the template.
-    * There is a *Map Composer* folder that is used by default: _.qgis2/composer_templates_
+    * From a configured map composition in the *Print Composer* window, save as template.
+    * Positioning of the various objects in *Print Composer* is saved in the template.
+    * There is a *Print Composer* folder that is used by default: _.qgis2/composer_templates_
     * Within one project you can't use a template to save a given map extent/scale.
         * Alternatively, bookmarks are available in the main QGIS window. They are saved globally to your computer, available from all QGIS documents.
+		
 * Evan mentioned that QGIS 3.0 will be released in 10 days.
     * There are still many plugins that people rely on missing for version 3.
     * Selective masking is a promising new feature.
+	
 * Stu demonstrated an interesting technique using *Time Manager* to animate commercial marine vessel movement in the Salish Sea with tails trailing behind the points as they move across the map.
     * Stu used two techniques from [Nyall Dawson](https://nyalldawson.net/):
         * [Label halos](https://nyalldawson.net/2017/04/about-label-halos/)
@@ -34,13 +47,17 @@ The February meeting was held at [Interim CDA](http://interimicda.org/whatwedo/)
             * For more information look at *scale_exp* usage in the *Expression Builder*.
             * The layer being symbolized has to have a text field in it that conforms to the [time format string](http://strftime.org/).
         * Stan uses Sony Movie Studio Platinum to assemble the the PNG files produced by *Time Manager* into a video.
+
 * Joel shared a tip to get QGIS to work right with high resolution screens with Windows 10.
     * It turns out he found an [answer](https://gis.stackexchange.com/questions/132491/qgis-on-uhd-screen) that Stu had provided in Stack Exchange.
     * Stu said this works not just with QGIS but with any software in Windows.
+
 * Evan shared a tip to install and use the  [autoSaver](https://plugins.qgis.org/plugins/autoSaver/) plugin to keep from losing work if you have trouble with QGIS crashing as it will save your document on a periodic basis.
+
 * Stu shared a fast way to add tiled basemaps.
     * In the Browser Panel select  _TileServer (XYZ) - add Connections_.
     * Evan said that turning on the _Use Native Render_ checkbox in the _Quick Map Services_ plugin may accomplish the same thing, by enabling the improved tile indexing code.
+
 * Joel explained how to configuring default field values when adding features using data in GeoPackage format.
     * Works with lines, points, polygons, and attributes only with tables.
     * Similar to building "domains" in ArcMap.

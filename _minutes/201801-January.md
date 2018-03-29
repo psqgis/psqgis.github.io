@@ -2,7 +2,13 @@
 layout: post
 title: "January '18 Meetup Minutes"
 date: 2018-01-10
+tags: time-manager time-series qgis-3 beta 3D mapbox styles plugin
 ---
+
+Covered Topics:
+* Time Manager
+* QGIS 3 Beta Release - Including 3D
+* Mapbox Studio Styles
 
 The January meeting was again held at [Interim CDA](http://interimicda.org/whatwedo/). Thanks again for their generous use of their conference room.
 
