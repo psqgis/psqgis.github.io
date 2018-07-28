@@ -4,7 +4,7 @@ title: "Meetup August 14th, 2018 - InterIM CDA"
 date: 2018-07-28
 schedule: 2018-08-14T18:00:00.0-7
 ---
-## [Our Monthly Meeting](https://www.meetup.com/Puget-Sound-QGIS-Users-Group/events/xfmpkpyxgbnb/)
+## [Our Monthly Meeting](https://www.meetup.com/Puget-Sound-QGIS-Users-Group/events/sgdhmpyxlbsb/)
 
 ## Tuesday August 14th, 6-8pm
 
