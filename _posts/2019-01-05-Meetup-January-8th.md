@@ -15,9 +15,7 @@ schedule: 2019-01-08T18:00:00.0-8
 ### Agenda: ###
 
 1. Bob Catherman will briefly share his experience with use of QGIS at Hue University of Sciences in Vietnam.
-
 2. I heard a rumor that Stu was planning on coming, but he hasn't RSVPed, so I'm considering that a maybe.
-
 3. Clifford may be discussing a freehand georeferencing plugin.
 
 There is room for a few more topics. Let us know if you've got anything.
