@@ -1,76 +1,59 @@
 ---
 layout: post
 title: "January '19 Meetup Minutes"
-date: 2019-01-19
-tags: hillshade styles rule-based tables map-layout plugin quickmapservices georeference labeling auto-labels projections 
+date: 2019-01-08
+tags: hillshade styles rule-based tables map-layout plugin quickmapservices georeference labeling auto-labels projections color-ramp imhof-shading blending-mode page-size page-properties freehandrastergeoreferencer
 ---
 
 Covered Topics:
 * Hillshades
 * Rule Based Styling
 * Insert Table in Map Layout
+* Changing Page Size
 * QuickMapServices in QGIS3
-* Georeferencing
+* Freehand Raster Georeferencer Plugin
 * Automated Label Placement
-* Visual Comparision of Geographic Extents
+* Visual Comparison of Geographic Extents
 
 The January meeting was held at [Interim CDA](http://interimicda.org/whatwedo/). Thanks again for their generous use of their conference room.
 
 ### Hillshades ###
-* Stu - Hillshades
-  * Has a document - Peter is sending it to me on Slack; Chris B sent it to me in e-mail
-  * Using QGIS 3.4.3
-  * 590 color ramps available in QGIS
-  * Color ramps
-    * Looking at rain data for Hurricane Harvey time frame
-    * Changed the thresholds to focus in on just the heavy rain areas
-  * Looking at Esri hillshade
-    * Compared to a hillshade Stu created from USGS 10 meter elevation data
-    * Esri data is very high resolution, includes roads, etc.
-    * Is using Imhof shading
-  * Combined a green to white color ramp combined with the hillshade to get the shaded relief with color by elevation
-    * sd-A is the color ramp he chose
-    * Using blending mode (Multiply) this is more vibrant than the default (which is like what happens in Esri)
-    * Suggests being sure to use bi-linear interpolation instead of the default nearest neighbor
+Stu has created a guide to [using color ramps in QGIS 3](/resources.html#Color%20Ramps%20QGIS%203.4).
+* The guide  was developed using QGIS version 3.4.3.
+* There are prebuilt 590 color ramps available in QGIS 3.
+* Stu was looking at rain data from during Hurricane Harvey and set a lower threshold to focus in on just the heavy rain areas.
+* Looked Esri hillshade basemap compared to a hillshade Stu created from USGS 10 meter elevation data:
+  * Esri data is very high resolution, includes roads, etc.
+  * Stu is using [Imhof shading](https://www.esri.com/arcgis-blog/products/arcgis-pro/mapping/steal-this-imhof-like-topography-style-please/). He combined a green to white color ramp and the hillshade to get the shaded relief with color by elevation.
+  * "sd-A" is the color ramp he chose.
+  * Used blending mode (Multiply). This is more vibrant than the default method, which is similar to Esri uses.
+    * __*TIP:*__ Be sure to use bi-linear interpolation instead of the default (nearest neighbor).
 
 ### Rule Based Styling ##
-* Stu - Rule Based Styling
-  * Example of shading polygons of interest differently than polygons of non-interest differently and then only labeling polygons of interest
-  * Added an attribute to use for shading and labeling
-    * Hit F7 to bring up Layer styling docked to the side with instant updates to style settings
-      * Go to Rule Based tab
-        * Click on formula button in filter  and define the criteria for no fill for areas of interest
-        * Leave formula blank to pick up everthing else. Make it black with transparency to "grey out" the remaining area
+Stu demonstrated rule based styling.
+* His example grayed out the polygons outside of his area of interest and only labeled the polygons of interest.
+  * Stu added an attribute to use when defining the rules.
+  * Configure by switching from *Single Symbol* to *Rule Based* styling, editing or adding a rule, and clicking on the formula button in filter button next to *Filter*.
+  * Create a rule for the features outside the area of interest with black fill and partial transparency to gray them out.
+  * __*TIP:*__ Hitting F7 brings up the *Layer Styling* window docked to the side.
+  * __*TIP*__ Check the *Live update* option next to apply to see updates to the map as you change  style settings.
 
 ### Insert Table in Map Layout ###
-* Stu - Looking for a way to make a table of polygon attributes inserted on the map
-  * He ended up exporting his project to an image and adding it in Paint
-  * Clifford asked about using composer.
-    * Looks like you can add a label with arbitrary text and set the properties to what Stu needs
-* Peter - asked about using US page sizes
-  * Right click on map and select Page Properties
-  * You can scroll down past all the European page sizes and find Letter, etc.
+Stu has been looking for a way to place a table of polygon attributes on a layout. He had a work around of exporting his project to an image and inserting the table with image editing software. Clifford suggesting asked about using *Print Composer*, which is not referenced as *Layout* on QGIS 3 menus. The group determined that you can add a label with arbitrary text and set the properties to do what Stu needs.
+
+### Changing Page Size ###
+Peter followed up by asking about using US page sizes. This is changed by right clicking on the layout and selecting *Page Properties...* from the pop-up menu. You can scroll down past the European page sizes and find Letter and other US page sizes.
 
 ### QuickMapServices in QGIS3 ###
-* Clifford - asked about QuickMapServices in QGIS3
-  * Stu has it in his but isn't sure how he added it. His is still under Web menu
-  * Upgraded to QGIS 3.4.3
-    * Quickmap services is now under the layer -> Add Layer - > QuickmapsServices
-	
-### Georeferencing ###
-* Clifford - Geo referencing
-  * Freehand Raster GeoReferencer Plugin
-  * Clifford has some slides
-  * Outputs a PNG with a world file
+Clifford asked if anyone else had experienced [QuickMapServices](https://qms.nextgis.com/about) not showing up on the *Web* menu in QGIS3. His is now under the *Layer -> Add Layer - > QuickmapsServices* at QGIS 3.4.3. Stu still found his under web. Paul subsequently installed QGIS 3.4.4 on MacOS and found his under web. We aren't sure what is going on.
+
+### Freehand Raster Georeferencer Plugin ###
+Clifford demonstrated the [Freehand raster georeferencer plugin](http://gvellut.github.io/FreehandRasterGeoreferencer/). Clifford's [demo slides](http://localhost:4000/resources.html#Freehand%20Raster%20Georeferencer) are available on our Reference page.
 
 ### Automated Label Placement ###
-* Clifford - Automated Placement Engine for labels 
-  * Access with button next to "Single Label" choice 
+Clifford demonstrated the *Automated Placement Engine* for labels. Access its settings from the *Layer Properties* *Labels* tab using the button next to the pull down with *Single Labels* showing by default.
 
-### Visual Comparision of Geographic Extents ###
-* Stu - Submitting a 30 page report to the Feds as part of the public input for the oil & gas drilling on the artic refuge
-  * Wants them to consider visibility of projects as environmental impact
-  * Wants to make a map of the lease area compared to a major city (say Washington DC)
-  * Explored using clifford's extention with the group
-    * Did not have success initialy bringing in the georeferenced TIFF with the plugin
-Paul suggested doing it in composer with two maps in the same equal area projection with the scale set the same for both maps
+### Visual Comparison of Geographic Extents ###
+Stu would like to produce a map comparing the area of the Arctic National Wildlife Refuge to the area of the District of Columbia. The map will support a thirty page report Stu is submitting as public input on a proposal for oil and gas drilling. Stu's report considers the visibility of projects as an environmental impact.
+
+The group explored the possibility of using the plugin Clifford demonstrated, but did not have success bringing in the georeferenced TIFF with the plugin. Paul suggested doing it in *Composer/Layout* with two separate maps added and overlapping. Each with an appropriate equal area projection and both with the same scale.
