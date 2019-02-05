@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Meetup February 12th, 2019 - InterIM CDA"
+title: "Updated Agenda - Meetup February 12th, 2019 - InterIM CDA"
 date: 2019-01-26
 schedule: 2019-02-12T18:00:00.0-8
 ---
@@ -15,8 +15,8 @@ schedule: 2019-02-12T18:00:00.0-8
 
 1. We will start series of practical exercises in QGIS to support our host InterIM.
    * This month we'll import building footprints for International District.
-2. Bob says he is coming. We are hoping he will report on his recent experience in Vietnam.
+2. Bob Catherman will share his experience in teaching QGIS at Vietnamese University and how he is developing GIS curriculum for the school using QGIS. He'll also present on workflow and results using QGIS SCP (Semi-automatic classification).
 
-There is room for a few more topics. Let us know if you've got anything.
+3. Stu Smith will show some advanced cartography with QGIS 3.4 and will also bring latest ["QGIS Map Design" book](https://www.amazon.com/dp/0998547743/).
 
 Paul McCombs
