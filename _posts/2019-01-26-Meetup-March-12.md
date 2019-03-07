@@ -13,14 +13,13 @@ schedule: 2019-03-12T18:00:00.0-7
 
 ### Agenda: ###
 
-1. Installing QGIS 3.6 for MacOS using this link: https://lutraconsulting.github.io/qgis-mac-packager/
+1. Installing QGIS 3.6 for MacOS using this link: [https://lutraconsulting.github.io/qgis-mac-packager/](https://lutraconsulting.github.io/qgis-mac-packager/)
 
-2. Stu Smith will show some advanced cartography with QGIS 3.4 and will also bring the latest "QGIS Map Design" book: https://www.amazon.com/dp/0998547743/
+2. Stu Smith will show some advanced cartography with QGIS 3.4 and will also bring the latest [_QGIS Map Design_ book](https://www.amazon.com/dp/0998547743/).
 
 3. Bob Catherman will talk about "Using SCP (Semi-Automated Classification Plugin) for accuracy assessment of classified Landsat images". He has found that the workflow is challenging but interesting once he figured it out. Plus he has couple interesting announcements he would like to share with the group.
 
-4. Resource link from QGIS User Conference 2019 currently in progress from Coruña (Spain).
-https://drive.google.com/file/d/1TNqZowEsx1VHds-XpDGV-UvznA9sWYQk/view
+4. [Resource link](https://drive.google.com/file/d/1TNqZowEsx1VHds-XpDGV-UvznA9sWYQk/view) from QGIS User Conference 2019 currently in progress from Coruña (Spain).
 
 Any topics folks like to share/demonstrate, please email to the group.
 
