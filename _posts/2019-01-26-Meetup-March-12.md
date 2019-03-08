@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Updated Agenda - Meetup March 12th, 2019 - InterIM CDA"
+title: "Meetup March 12th, 2019 - InterIM CDA"
 date: 2019-03-06
 schedule: 2019-03-12T18:00:00.0-7
 ---
