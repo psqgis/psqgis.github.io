@@ -13,6 +13,8 @@ Covered Topics:
 
 The February meeting was held at [Interim CDA](http://interimicda.org/whatwedo/). Thanks again for their generous use of their conference room.
 
+## Just Raw Notes for Now ##
+
 * Installation of latest version of QGIS 3.x in Mac/Win/Linux for any members.
   * Peter successfully installed QGIS 3.4 on Mac
   * Had to install the specific version of Python 3.6
@@ -36,8 +38,8 @@ The February meeting was held at [Interim CDA](http://interimicda.org/whatwedo/)
   * Also can get density of laser points which is informative as to how much you can get out of the layer.
   * Also can get the point cloud
   * Looked at product called CloudCompare
-    *Use to extract "garbage"
-    *Uses the intensity of the response to distiguish between what he wants
+    * Use to extract "garbage"
+    * Uses the intensity of the response to distiguish between what he wants
   * Looked at a product called Mesh Lab
     * Use on the content coming out of Mesh Lab
 
