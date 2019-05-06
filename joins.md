@@ -62,7 +62,7 @@ Relates are 1:Many (same as Arcmap)
 
 See:
 * [Using Relations In QGIS](http://fulcrumapp.com/blog/using-relations-in-qgis/)
-* [QGIS Relations](http://blog.vitu.ch/10112013-1201/qgis-relations)
+* [QGIS Relations](https://web.archive.org/web/20160313201132/http://blog.vitu.ch/10112013-1201/qgis-relations)
 
 a) Create the relation:
     - Project Properties > Relations > Add
