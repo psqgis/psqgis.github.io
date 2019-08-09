@@ -2,7 +2,7 @@
 layout: post
 title: "Febuary '19 Meetup Minutes"
 date: 2019-08-08
-tags: install qgis-3 open-data lidar raster learning print-map
+tags: install qgis-3 open-data lidar raster learning print-map scp
 ---
 
 Covered Topics:
