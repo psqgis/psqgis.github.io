@@ -1,14 +1,8 @@
 ---
 layout: post
-<<<<<<< HEAD
 title: "Febuary '19 Meetup Minutes"
-date: 2019-04-08
-tags: qgis-3 scp open-data paper-map
-=======
-title: "February '19 Meetup Minutes"
-date: 2019-03-19
+date: 2019-08-08
 tags: install qgis-3 open-data lidar raster learning print-map
->>>>>>> alt-Feb2019-minutes
 ---
 
 Covered Topics:
