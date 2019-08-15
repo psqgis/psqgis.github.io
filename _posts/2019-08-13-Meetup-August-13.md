@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Meetup August 13th, 2019 - InterIM CDA"
-date: 2019-05-13
+date: 2019-08-08
 schedule: 2019-08-13T18:00:00.0-7
 ---
 ## [Our Monthly Meeting](https://www.meetup.com/Puget-Sound-QGIS-Users-Group/events/gkjkpqyzlbrb/)
