@@ -1,15 +1,19 @@
 ---
 layout: post
 title: "Febuary '19 Meetup Minutes"
-date: 2019-08-08
+date: 2019-02-28
 tags: install qgis-3 open-data lidar raster learning print-map scp
+excerpt_separator: <!--more-->
 ---
+
+***August 2019: Tags edited***
 
 Covered Topics:
 * MacOS installation of QGIS 3
 * Practical QGIS Project
 * Semi-Automatic Classification Plugin
 * Creating a Paper Trail Map
+<!--more-->
 
 The February meeting was held at [Interim CDA](http://interimicda.org/whatwedo/). Thanks again for their generous use of their conference room.
 
