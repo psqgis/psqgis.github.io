@@ -9,7 +9,7 @@ title: QGIS Curriculum
 
 This curriculum is a series of five volumes on the topic of using QGIS open source software. The intended purpose of these volumes is to provide detailed instructions that can be used as curriculum in GIS classes. Special attention has been paid to English syntax so the text can be easily translated into other languages. Currently the text is available in English and Vietnamese.
 
-Volume One, [**How to use Geographic Information Systems to monitor outcomes of health care research and projects**](/downloads/QGIS_Vol_1_Intro_English_1-4.docx%0A), is an introduction to QGIS open source software intended for the first-time user of GIS software.
+Volume One, [**How to use Geographic Information Systems to monitor outcomes of health care research and projects**](/downloads/QGIS_Vol_1_Intro_English_1-4.docx), is an introduction to QGIS open source software intended for the first-time user of GIS software.
 
 Volume Two, [**An introduction to using open source GIS software with remote sensed images**](/downloads/QGIS_Vol_2_Forest_Change_English-2-3.doc), introduces the use of QGIS for analyzing forest coverage changes using Landsat remote sensed images.
 
