@@ -2,7 +2,7 @@
 title: "QGIS Curriculum"
 layout: default
 contributor: "Written by Robert Catherman"
-tags: health-care handbook training curriculum textbook class research remote-sensing images raster landsat agriculture analysis land-use
+tags: health-care handbook training curriculum textbook class research remote-sensing images raster landsat agriculture analysis land-use crop-development watershed mapping
 ---
 
 A [QGIS curriculum](/curriculum.html) in four chapters, with detailed examples using QGIS.
@@ -10,6 +10,7 @@ A [QGIS curriculum](/curriculum.html) in four chapters, with detailed examples u
 2. An introduction to using open source GIS software with remote sensed images
 3. Using QGIS and Landsat Images to Monitor Seasonal Crop Development
 4. Using QGIS and Remote Sensed Images to Analyze Land Use
+5. Using QGIS for Watershed Mapping
 
 Published by [Medrix](http://www.medrix.org).
 
