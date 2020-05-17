@@ -10,6 +10,16 @@
 		<name>Paul McCombs</name>
 	</author>
 
+	{% for minute in site.minutes %}
+	<entry>
+	  <title>{{ minute.title }}</title>
+	  <link href="http://psqgis.org{{ minute.url }}"/>
+	  <updated>{{ minute.date | date_to_xmlschema }}</updated>
+	  <id>http://psqgis.org{{ minute.id }}</id>
+	  <content type="html">{{ minute.excerpt | xml_escape}}</content>
+	</entry>
+	{% endfor %}
+	
 	{% for post in site.posts %}
 		<entry>
 			<title>{{ post.title }}</title>

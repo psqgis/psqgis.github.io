@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Meetup November 15th, 2016 - LFP Bar & Grill"
+title: "Meetup November 15th, 2016 - LFP Bar &amp; Grill"
 date: 2016-11-12
 schedule: 2016-11-15T18:00:00.0-8
 ---
